@@ -1,0 +1,35 @@
+Lesson Plan 04, ISTA-322 Cohort 3
+Chapter 4, Professional ASP.NET MVC 5
+September 21, 2017
+1 Discussion Questions
+Chapter 4 Pages: 75 — 108
+
+1. What is sca?olding?
+Something that auto generates code.
+
+
+2. What is a navigational property? What is a foreign key property?
+Navigates to a social field using the .Operator, means a fully qualified name.
+So it can be refured to multiple data based tables.
+
+3. What is a virtual property? Why does the book use virtual properties?
+
+
+4. Explain eagar loading. Explain lazy loading. What is the di?erence between the two?
+
+
+5. What is meant by seeding a database? Explain.
+Enables you to create intial data for the application.
+
+6. What is meant by the happy path? What is meant by the sad path? Give examples of 
+each that are not in the book.
+Successful path and the sad path would be unsuccessful path.
+
+7. In HTTP POST, what happens when action parameters are passed by the query request?
+What happens to the parameters and how are they expressed?
+In a git request the parameters are in the URL,they are buried in the header. What happens to te parameters is 
+
+8. What is implicit model binding? Explain.
+
+
+9. What is explicit model binding? Explain.

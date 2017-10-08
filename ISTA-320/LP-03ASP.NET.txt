@@ -1,0 +1,50 @@
+Lesson Plan 03, ISTA-322 Cohort 3
+Chapter 3, Professional ASP.NET MVC 5
+September 20, 2017
+1 Discussion Questions
+Chapter 3, Pages: 49 — 74
+
+1. What is a view?
+the view isassumed to be stateless. This fits nicely with the HTTP requests and responses 
+that underpin a Web application.Further, MVC forces a separation of concerns—the domain 
+model and controller logic are decoupled from the
+user interface. 
+
+2. What is the similarity between view names and controller names? 
+What is the di?erence between the two?
+
+
+3. Where in the directory structure of an ASP.NET MVC application do views live?
+The whole point of a web application platform is to construct and display dynamic output. In MVC, it is the
+controller’s job to construct some data and pass it to the view, which is responsible for rendering it to HTML.
+One way to pass data from the controller to the view is by using the ViewBag object, which is a member of the
+Controller base class. ViewBag is a dynamic object to which you can assign arbitrary properties, making those values
+available in whatever view is subsequently rendered. Listing 2-6 demonstrates passing some simple dynamic data in
+this way in the HomeController.cs file.
+
+4. What is a ViewBag object? What does it do?
+ViewBag is a dynamic object to which you can assign arbitrary properties, making those values
+available in whatever view is subsequently rendered.
+
+5. What does the at symbol (@) do? Can you excape it? If so, how?
+can be used before a string literal to change how the compiler parses the string. 
+
+6. Convention-over-Configuration (CoC) is an approach to software design that seeks to assign a specific 
+conventional meaning to predefined code structures. If the developer is happy with the convention, 
+then there is little or no need for configuration.
+
+7. What is a ActionResult object? How do these objects interact with views?
+The action result system lets us encapsulate and reuse common responses in actions.
+
+8. What are strongly typed views?
+A strongly typed view is intended to render a specific domain type, and if I specify the type I want
+to work with (GuestResponse in this case), MVC can create some helpful shortcuts to make it easier.
+
+9. How does Razor combine HTML and C# code?
+
+
+10. Where do layouts live in the directory structure of an ASP.NET MVC application?
+In the layout properties in the views folder.
+
+11. What are the di?erences between a partial view and a “full view?”
+A partial view is a "sub-view" that you embed within a main view - something that you might reuse across multiple views, like a sidebar.
